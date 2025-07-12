@@ -1,0 +1,50 @@
+
+### .gitignore
+
+```gitignore
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Vite cache
+.vite/
+.vscode/
+
+# Build directories
+dist/
+build/
+out/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+
+# Debug logs
+*.log
+
+# Backend specific
+backend/.env
+backend/uploads/
+
+# Frontend specific
+frontend/.env
+frontend/dist/
